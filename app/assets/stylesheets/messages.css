@@ -1,13 +1,13 @@
 .wrapper {
   display: flex;
 }
-.left-sider {
+.side-bar {
   background-color: #253141;
   width: 300px;
   height: 100vh;
 }
 
-.left-side-header {
+.side-bar-header {
   height: 100px;
   padding: 0 20px;
 }
@@ -16,11 +16,11 @@
   height: calc(100vh - 100px);
   padding: 0 20px;
 }
-.right-sider {
+.chat {
   background-color: #FFFFFF;
   width: calc(100vw - 300px);
 }
-.right-side-header {
+.chat-header {
   height: 100px;
   padding: 0 40px;
 }
